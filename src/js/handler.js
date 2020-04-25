@@ -8,6 +8,10 @@ function getCookie(name) {
 }
 //получаем форму
 const form = document.querySelector('form');
+//получаем вопрос
+const question = document.getElementById('question');
+//получаем кнопку
+const button = document.querySelector('button');
 //устнавливаем имя куки
 let name_cookie='choice'
 //получаем куки
