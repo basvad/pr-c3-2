@@ -30,9 +30,10 @@ else{
     let result_array=cookie_site.split(":");
     console.log(result_array);
     //разбираем значения
-    result_array.forEach(i){
+    result_array.forEach(function(i){
       form.elements[i].checked = Boolean(result_array[i]);
-    }
+      });
+    
    // form.elements[0].checked = Boolean(result_array[0]);
    // main.hidden = true; 
    // advanced.hidden =false;
