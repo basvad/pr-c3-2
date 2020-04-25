@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>C3 ГОРОД</title>
+     <link rel="stylesheet" href="src/css/bootstrap.min.css">
+</head>
+<body class="container">
+ <br>
+ <section>
+    <div class="panel panel-primary">
+        <div id='panel-heading' class="panel-heading">Задача "Галочки предпочтений"</div>
+        <div class="panel-body">
+        <div id='question' class="question">
+            <p>Выберите свои предпочтения:</p>
+        </div>
+        <hr>
+        <div id="vote-section">              
+      <form id="vote" action="" method="">
+       <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        не звонить мне
+      </label>
+    </div>
+    <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+          <label class="form-check-label" for="defaultCheck2">
+            я прочитал и согласен с правилами пользования сервисом
+      </label>
+    </div>
+    <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+          <label class="form-check-label" for="defaultCheck3">
+            я не выбираю эту галочку
+      </label>
+    </div>
+    <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+          <label class="form-check-label" for="defaultCheck4">
+            я подтверждаю, что свобода в интернете — это возможность выбирать галочки
+      </label>
+    </div>
+       <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+          <label class="form-check-label" for="defaultCheck5">
+            мне больше 12 лет
+      </label>
+    </div>
+       <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+          <label class="form-check-label" for="defaultCheck6">
+            это задание выполнено правильно
+      </label>
+    </div>
+        <br>
+        <button type="submit" class="btn btn-default">Сохранить</button>
+      </form>
+     </div>
+      <div id="advanced">
+         <button id='reset_cookies' class="btn btn-default">Очистить cookies</button>
+     </div>
+     </div>
+     </div>
+ </section>  
+    <script src="src/js/handler.js"></script> 
+</body>
+</html>
