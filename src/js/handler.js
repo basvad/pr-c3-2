@@ -32,7 +32,6 @@ if (typeof cookie_site === 'undefined'){
 else{
     //делаем из куки массив
     let result_array=cookie_site.split(":");
-    console.log(result_array);
     //устанавливаем значения
     for (var i = 0; i < 6; i++) {
     if (result_array[i]=='true') form.elements[i].checked=true;
