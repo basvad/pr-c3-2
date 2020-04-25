@@ -29,27 +29,11 @@ else{
     //делаем из куки массив
     let result_array=cookie_site.split(":");
     console.log(result_array);
-    //разбираем значения
-  /* for (let i=0;i<len(result_array);i++){
-     if (result_array[i]=="true"){
-        form.elements[i].checked=true;
-     }
-     else if (result_array[i]=="false"){
-       form.elements[i].checked=false;
-     }
-   }*/
-  for (var i = 0; i < 6; i++) {
+    //устанавливаем значения
+    for (var i = 0; i < 6; i++) {
     if (result_array[i]=='true') form.elements[i].checked=true;
-    //form.elements[i].checked=String(result_array[i]);
   }
-      // main.hidden = true; 
-   // advanced.hidden =false;
-   // question.innerHTML="<p>Ваш город - <strong>"+cookie_site+"</strong> </p>";
-    //вешаем обработчки на кнопку сброса куки
-    //document.getElementById('reset_cookies').addEventListener('click',function(){
-      //удаляем куку 
-    //CookiesDelete();
-      //обновляемся
-     // location.reload();
-    //})
+  // отключаем чекбоксы
+  for (var i = 0; i < 6; i++) { form.elements[i].disabled=true;
+}
 }
