@@ -26,7 +26,7 @@ if (typeof cookie_site === 'undefined'){
     });
 }
 else{
-   // console.log(cookie_site);
+    console.log(cookie_site);
    // main.hidden = true; 
    // advanced.hidden =false;
    // question.innerHTML="<p>Ваш город - <strong>"+cookie_site+"</strong> </p>";
