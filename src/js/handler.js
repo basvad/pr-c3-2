@@ -29,6 +29,8 @@ else{
     //делаем из куки массив
     let result_array=cookie_site.split(":");
     console.log(result_array);
+    //разбираем значения
+    form.elements[0].checked = Boolean(result_array[0]);
    // main.hidden = true; 
    // advanced.hidden =false;
    // question.innerHTML="<p>Ваш город - <strong>"+cookie_site+"</strong> </p>";
