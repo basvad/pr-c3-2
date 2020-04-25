@@ -42,6 +42,6 @@ else{
 }
   //меняем текст
   question.innerText="Ваши предпочтения:";
-  //скрываем кнопку
-  button.hidden=true;
+  //отключаем кнопку
+  button.disabled=true;
 }
