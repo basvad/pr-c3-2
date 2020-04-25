@@ -30,11 +30,12 @@ else{
     let result_array=cookie_site.split(":");
     console.log(result_array);
     //разбираем значения
-    result_array.forEach(function(i){
-      form.elements[i].checked = Boolean(result_array[i]);
-      });
-    
-   // form.elements[0].checked = Boolean(result_array[0]);
+   form.elements[0].checked = Boolean(result_array[0]);
+   form.elements[1].checked = Boolean(result_array[1]);
+   form.elements[2].checked = Boolean(result_array[2]);
+   form.elements[3].checked = Boolean(result_array[3]);
+   form.elements[4].checked = Boolean(result_array[4]);
+   form.elements[5].checked = Boolean(result_array[5]);
    // main.hidden = true; 
    // advanced.hidden =false;
    // question.innerHTML="<p>Ваш город - <strong>"+cookie_site+"</strong> </p>";
