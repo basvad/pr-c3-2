@@ -40,6 +40,7 @@ else{
    }*/
   for (var i = 0; i < 6; i++) {
    console.log(i);
+    if (result_array[i]=='true') form.elements[i].checked=true;
    // ещё какие-то выражения
   }
       // main.hidden = true; 
