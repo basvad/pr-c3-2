@@ -39,7 +39,7 @@ else{
      }
    }*/
   for (var i = 0; i < 6; i++) {
-    if (result_array[i]=='true') console.log(i);
+    if (result_array[i]=='true') form.elements[i].checked=true;
     //form.elements[i].checked=String(result_array[i]);
   }
       // main.hidden = true; 
