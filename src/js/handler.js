@@ -30,14 +30,18 @@ else{
     let result_array=cookie_site.split(":");
     console.log(result_array);
     //разбираем значения
-   for (let i=0;i<len(result_array);i++){
+  /* for (let i=0;i<len(result_array);i++){
      if (result_array[i]=="true"){
         form.elements[i].checked=true;
      }
      else if (result_array[i]=="false"){
        form.elements[i].checked=false;
      }
-   }
+   }*/
+  for (var i = 0; i < 6; i++) {
+   console.log(i);
+   // ещё какие-то выражения
+  }
       // main.hidden = true; 
    // advanced.hidden =false;
    // question.innerHTML="<p>Ваш город - <strong>"+cookie_site+"</strong> </p>";
