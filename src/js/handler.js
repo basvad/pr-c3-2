@@ -40,4 +40,8 @@ else{
   // отключаем чекбоксы
   for (var i = 0; i < 6; i++) { form.elements[i].disabled=true;
 }
+  //меняем текст
+  question.innerText="Ваши предпочтения:";
+  //скрываем кнопку
+  button.hidden=true;
 }
