@@ -30,7 +30,7 @@ else{
     let result_array=cookie_site.split(":");
     console.log(result_array);
     //разбираем значения
-   for (i=0;i<len(result_array);i++){
+   for (let i=0;i<len(result_array);i++){
      if (result_array[i]=="true"){
         form.elements[i].checked=true;
      }
