@@ -31,10 +31,10 @@ else{
     console.log(result_array);
     //разбираем значения
    for (i=0;i<len(result_array);i++){
-     if result_array[i]=="true"{
+     if (result_array[i]=="true"){
         form.elements[i].checked=true;
      }
-     else if result_array[i]=="false"{
+     else if (result_array[i]=="false"){
        form.elements[i].checked=false;
      }
    }
